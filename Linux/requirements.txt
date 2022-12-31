@@ -1,0 +1,5 @@
+tkinter
+selenium==4.1.0
+matplotlib
+numpy
+tabula-py==2.5.0
