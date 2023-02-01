@@ -1,0 +1,1 @@
+python3 notify.py 192.168.1.6 >> log

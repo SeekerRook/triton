@@ -1,0 +1,1 @@
+cp triton.py ~/.local/bin/triton

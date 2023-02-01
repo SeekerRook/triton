@@ -44,7 +44,7 @@ def run ():
                 links.append(link.get('href'))
     
     url = links[0]
-    print(url)
+    # print(url)
     print("converting to csv ...         ",end = "\r")
 
     df = tabula.read_pdf(url,pages=1)[0]
@@ -77,6 +77,7 @@ def run ():
                 print (res)
                 # return (res)
                 return {
+
                     "current unit Price":price,
                     "Value (705.864 units)":round(val,2),
                     "Clear_Value (- 160 fee)":round(clear,2),
