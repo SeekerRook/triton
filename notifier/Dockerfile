@@ -22,6 +22,5 @@ ADD notify.py /root/notify.py
 RUN chmod 0644 /root/script.sh
 # Add the cron job
 RUN crontab -l | { cat; echo "0 9 * * * bash /root/script.sh"; } | crontab -
-
 # Run the command on container startup
-CMD cron ; bash
+CMD cron ; sleep infinity
